@@ -1,5 +1,8 @@
 .vagrant
-/cookbooks
+
+# Itamae
+.keep
+.env
 
 # Bundler
 bin/*
