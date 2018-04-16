@@ -15,7 +15,7 @@ directory DST do
   group USER_NAME
 end
 
-template "#{DST}ssmtp.conf" do
+template "#{DST}ssmtp.conf.erb" do
   action :create
   user USER_NAME
   owner USER_NAME
