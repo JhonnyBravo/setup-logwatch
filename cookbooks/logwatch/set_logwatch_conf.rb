@@ -5,7 +5,7 @@ require 'dotenv'
 Dotenv.load
 
 USER_NAME=ENV["USER_NAME"]
-SRC="/home/#{USER_NAME}/Templates/logwatch/logwatch.conf"
+SRC="/home/#{USER_NAME}/Templates/logwatch/logwatch.conf.erb"
 DST="/etc/logwatch/conf/logwatch.conf"
 
 template DST do
